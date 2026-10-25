@@ -24,6 +24,7 @@ display:flex;
 align-items: flex-start;
 flex-wrap: wrap;
 gap: 30px;
+margin-bottom: 40px;
 
 }
 .sport-card__subtitle {
@@ -38,7 +39,7 @@ padding: 10px 6px;
 border-radius: 4px;
 backdrop-filter: blur(4px);
 border: 1px solid #EBEEF3;
- }
+}
 .sport-card__image-wrapper{
 position: relative;
 width: 100%;
@@ -109,4 +110,21 @@ opacity: 0.6;
 font-size: 16px;
 line-height: 123.9%;
 font-weight: normal;
-color: #696868;}
+color: #696868;
+}
+.navigation{
+display: flex;
+gap: 12px;
+}
+.buttom{
+border-radius: 10px;
+}
+.button_type_right{
+background-color: #262626;
+color: #EBEEF3;
+}
+.button_type_left{
+background-color: #BAB8B8;
+color: #EBEEF3;
+border: none;
+}
